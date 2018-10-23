@@ -17,21 +17,24 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 ## Blue
 
 Vulnerability #1: SQL Injection
-
+![image](https://github.com/LMCNN/CS4984/blob/master/GIF/SQLI.gif)
 
 Vulnerability #2: Session Hijacking/Fixation
-
+![image](https://github.com/LMCNN/CS4984/blob/master/GIF/Session%20Hijacking.gif)
 
 ## Green
 
 Vulnerability #1: Username Enumeration
+![image](https://github.com/LMCNN/CS4984/blob/master/GIF/%20Username%20Enumeration.gif)
 
 Vulnerability #2: Cross-Site Scripting
+![image](https://github.com/LMCNN/CS4984/blob/master/GIF/XSS.gif)
 
 
 ## Red
 
 Vulnerability #1: Insecure Direct Object Reference
+![image](https://github.com/LMCNN/CS4984/blob/master/GIF/IDOR.gif)
 
 Vulnerability #2: __________________
 
