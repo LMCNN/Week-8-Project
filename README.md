@@ -35,6 +35,10 @@ Vulnerability #2: Cross-Site Scripting
 
 Vulnerability #1: Insecure Direct Object Reference
 ![image](https://github.com/LMCNN/CS4984/blob/master/GIF/IDOR.gif)
+-When I opened the find salesman page and selected a salesmperson, 
+ I found that there was a parameter called id at the end of the url.
+ So I'm trying to change the value of this parameter. Then it opens 
+ another salesperson's page.
 
 Vulnerability #2: __________________
 
