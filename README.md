@@ -18,18 +18,29 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 Vulnerability #1: SQL Injection
 ![image](https://github.com/LMCNN/CS4984/blob/master/GIF/SQLI.gif)
+-When I opened the find salesman page and selected a salesmperson, 
+ I found that there was a parameter called id at the end of the url.
+ I try to change the number to 'OR sleep(5)=0 --' and refresh the site.
+ I waited five seconds before the page returned.
 
 Vulnerability #2: Session Hijacking/Fixation
 ![image](https://github.com/LMCNN/CS4984/blob/master/GIF/Session%20Hijacking.gif)
+-Open the page simultaneously with two different browsers
+-Login in this page in one of the browsers
+-Use the provided tool to copy the session id of the browser of
+ the logged in web page to another browser
+-The other browser is now logged in.
 
 ## Green
 
 Vulnerability #1: Username Enumeration
 ![image](https://github.com/LMCNN/CS4984/blob/master/GIF/%20Username%20Enumeration.gif)
+-Does the presence or absence of a username determine whether the return is fail or failure
 
 Vulnerability #2: Cross-Site Scripting
 ![image](https://github.com/LMCNN/CS4984/blob/master/GIF/XSS.gif)
-
+-Enter '<script> alert('success!');</script>' in the comment
+-A warning window will pop up with 'success!' written on it
 
 ## Red
 
