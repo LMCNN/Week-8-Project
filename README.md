@@ -51,8 +51,11 @@ Vulnerability #1: Insecure Direct Object Reference
  So I'm trying to change the value of this parameter. Then it opens 
  another salesperson's page.
 
-Vulnerability #2: __________________
-
+Vulnerability #2: Cross-Site Request Forgery
+![image](https://github.com/LMCNN/CS4984/blob/master/GIF/CSRF.gif)
+-Make an HTML form that edit salesman profile
+-submit a comment link with contains this form
+-when the admin go to that link, it will edit salesman's profile.
 
 ## Notes
 
